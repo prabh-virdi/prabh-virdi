@@ -73,33 +73,21 @@ const skills = [
     skills: [
       { name: "AutoCad", percentage: "85" },
       { name: "Stadd Pro", percentage: "60" },
+      { name: "SAP netweaver", percentage: "60"},
       { name: "3ds Max", percentage: "75" },
       { name: "Vray", percentage: "85" },
-      { name: "SCSS", percentage: "75" },
-      { name: "ANGULAR.js", percentage: "85" },
-      { name: "HTML", percentage: "95" },
-      { name: "CSS", percentage: "75" },
     ],
   },
   {
-    //cat_name: "DATABASE",
+    cat_name: "Microsoft Excel",
     skills: [
-      { name: "MONGO-DB", percentage: "75" },
-      { name: "POSTGRE-SQL", percentage: "75" },
-      { name: "PLSQL", percentage: "82" },
+      { name: "Excel", percentage: "80" },
+      { name: "Powerpoint", percentage: "85" },
+      { name: "Word", percentage: "80" },
       { name: "SQL", percentage: "84" },
       { name: "FIREBASE", percentage: "80" },
     ],
-  },
-  {
-    //cat_name: "BACKEND",
-    skills: [
-      { name: "NODE.js", percentage: "89" },
-      { name: "EXPRESS.js", percentage: "92" },
-      { name: "NEST.js", percentage: "82" },
-      { name: "NODEMAILER.js", percentage: "82" },
-    ],
-  },
+  }, 
   {
     cat_name: "DESIGN",
     skills: [
@@ -108,14 +96,7 @@ const skills = [
       { name: "Adobe After Effects", percentage: "45" }
     ],
   },
-  {
-    //cat_name: "VERSION_CONTROL ",
-    skills: [
-      { name: "GITHUB", percentage: "90" },
-      { name: "BITBUCKET", percentage: "90" },
-      { name: "GIT", percentage: "88" },
-    ],
-  },
+ 
 ];
 
 const projects = [
