@@ -69,12 +69,12 @@ const experience = [
 
 const skills = [
   {
-    cat_name: "WEB_TECHS",
+    cat_name: "BIMs",
     skills: [
-      { name: "REACT.js", percentage: "90" },
-      { name: "TAILWIND", percentage: "65" },
-      { name: "NEXT.js", percentage: "85" },
-      { name: "VUE.js", percentage: "85" },
+      { name: "AutoCad", percentage: "85" },
+      { name: "Stadd Pro", percentage: "60" },
+      { name: "3ds Max", percentage: "75" },
+      { name: "Vray", percentage: "85" },
       { name: "SCSS", percentage: "75" },
       { name: "ANGULAR.js", percentage: "85" },
       { name: "HTML", percentage: "95" },
@@ -82,32 +82,17 @@ const skills = [
     ],
   },
   {
-    cat_name: "DATABASE",
+    //cat_name: "DATABASE",
     skills: [
-      {
-        name: "MONGO-DB",
-        percentage: "75",
-      },
-      {
-        name: "POSTGRE-SQL",
-        percentage: "75",
-      },
-      {
-        name: "PLSQL",
-        percentage: "82",
-      },
-      {
-        name: "SQL",
-        percentage: "84",
-      },
-      {
-        name: "FIREBASE",
-        percentage: "80",
-      },
+      { name: "MONGO-DB", percentage: "75" },
+      { name: "POSTGRE-SQL", percentage: "75" },
+      { name: "PLSQL", percentage: "82" },
+      { name: "SQL", percentage: "84" },
+      { name: "FIREBASE", percentage: "80" },
     ],
   },
   {
-    cat_name: "BACKEND",
+    //cat_name: "BACKEND",
     skills: [
       { name: "NODE.js", percentage: "89" },
       { name: "EXPRESS.js", percentage: "92" },
@@ -118,12 +103,13 @@ const skills = [
   {
     cat_name: "DESIGN",
     skills: [
-      { name: "FIGMA", percentage: "70" },
-      { name: "ADOBE XD", percentage: "65" },
+      { name: "Adobe Photoshop", percentage: "70" },
+      { name: "Adobe Illustrator", percentage: "65" },
+      { name: "Adobe After Effects", percentage: "45" }
     ],
   },
   {
-    cat_name: "VERSION_CONTROL ",
+    //cat_name: "VERSION_CONTROL ",
     skills: [
       { name: "GITHUB", percentage: "90" },
       { name: "BITBUCKET", percentage: "90" },
