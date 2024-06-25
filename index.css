@@ -2,8 +2,8 @@
 
 :root {
   --dark-theme-shadow: 0px 0px 5px 0.5px hsla(0, 0%, 0%, 0.2);
-  --primary-color: #e07a5f;
-  --secondary-color: #3d405b;
+  --primary-color: #ffffff;
+  --secondary-color: #383838;
   --accent-color: #85c6ff;
   --text-color-one: #f4f1de;
   --primary-fontStyle: "Nunito", sans-serif;
