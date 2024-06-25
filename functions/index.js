@@ -16,7 +16,7 @@ const userInfo = {
     " Enthusiastic and dedicated Civil Engineer with hands-on experience in both planning and execution. Proficient in using a range of software tools, including AutoCAD, STAAD Pro, Microsoft Office, SAP NetWeaver, 3ds Max, V-Ray, and Adobe Photoshop. Possess good analytical skills and the ability to efficiently manage tasks and projects. Highly motivated to bring my technical expertise and passion for civil engineering to a dynamic and innovative team. Committed to staying updated with latest trends for efficient solutions. ",
 };
 
-//const testimonials = [
+const testimonials = [
   {
     author: "Roneet Kumar",
     profession: "Front End Engineer at Morgan Stanley",
