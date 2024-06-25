@@ -44,24 +44,18 @@ const userInfo = {
 
 const education = [
   {
-    course: "PG Diploma in Web Programming",
-    institute: "College Lasalle",
-    location: "Quebec, Canada",
-    year: "2020",
-  },
-  {
-    course: "Bachelors in Computer Science",
-    institute: "Guru Nanak Dev University",
-    location: "Amritsar, India",
-    year: "2017",
+    course: "B-tech in Civil engineering",
+    institute: "DAV insititute of Engineering & Technology",
+    location: "Jalandhar, Punjab, India",
+    year: "2019-2023",
   },
 ];
 
 const experience = [
   {
-    position: "Front End Web Developer",
-    company: "LGS, an IBM company (BELL)",
-    duration: "Jan 2022 - Present",
+    position: "Graduate Engineer Trainee",
+    company: "Shapoorji Pallonji Engineering and construction",
+    duration: "Aug 2023 - Present",
     details: `I am working on a part of a web application to change from MVC code to a react application. I am working on development of various features new and existing. Working with multiple repositories on Bitbucket. Rest of my responsibilities include:<br/>
      • Developing new user-facing features.<br/>
      • Updating Jira trackers for agile environment and team management<br/>
@@ -70,26 +64,6 @@ const experience = [
      • Solving high scale defects in existing applications.<br/>
      • Working with a pretty complex source code handled on bitbucket using Github.<br/>,
      • Collaborating with all team members and stakeholders<br/>`,
-  },
-  {
-    position: "Assistant Professor",
-    company: "ISI College",
-    duration: "Nov 2020 - Jan 2021",
-    details:
-      "Assisted Professor Roneet Kumar at ISI College for teaching Javascript to students. I was assigned to prepare presentations to explain various aspects of the languages theoretically and practically. At many moments I was able to gain a lot of knowledge from the students as well.",
-  },
-  {
-    position: "Front End Web Developer",
-    company: "Enrage Tech",
-    duration: "2015 - 2018",
-    details: `I was responsible for implementing visual elements that were visible from the computer users vantage point within various web applications. I combined the art of design with the science of programming.<br/>
-    Rest of my tasks included:<br/>
-     • Develop new user-facing features<br/>
-     • Build reusable code and libraries for future use<br/>
-     • Ensure the technical feasibility of UI/UX designs<br/>
-     • Optimize application for maximum speed and scalability<br/>
-     • Assure that all user input is validated before submitting to back-end<br/>
-     • Collaborate with other team members and stakeholders`,
   },
 ];
 
