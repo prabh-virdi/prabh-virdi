@@ -84,8 +84,6 @@ const skills = [
       { name: "Excel", percentage: "80" },
       { name: "Powerpoint", percentage: "85" },
       { name: "Word", percentage: "80" },
-      { name: "SQL", percentage: "84" },
-      { name: "FIREBASE", percentage: "80" },
     ],
   }, 
   {
