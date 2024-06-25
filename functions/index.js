@@ -223,12 +223,9 @@ projects.map((project) => {
   `;
 });
 
-//Profession animation
+//Profession animation creates typing animation
 var professions = [
-  "#FrontEndWebDeveloper",
-  "#FullStackWebDeveloper",
-  "#DesignEnthusiast",
-  "#Teacher",
+  "#Civil Engineer",
 ];
 
 var x = 0;
