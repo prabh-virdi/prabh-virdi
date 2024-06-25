@@ -16,31 +16,31 @@ const userInfo = {
     " Enthusiastic and dedicated Civil Engineer with hands-on experience in both planning and execution. Proficient in using a range of software tools, including AutoCAD, STAAD Pro, Microsoft Office, SAP NetWeaver, 3ds Max, V-Ray, and Adobe Photoshop. Possess good analytical skills and the ability to efficiently manage tasks and projects. Highly motivated to bring my technical expertise and passion for civil engineering to a dynamic and innovative team. Committed to staying updated with latest trends for efficient solutions. ",
 };
 
-const testimonials = [
+{const testimonials = [
   {
-    author: "Roneet Kumar",
-    profession: "Front End Engineer at Morgan Stanley",
-    img: "./assets/1.jfif",
-    message: `Rupinder is a dear friend with whom i had pleasure to
-    work on various exciting projects while we were completing our post graduate diploma at
-    LaSalle College.
-    He is super fun to work with and a great team player, moreover he is a skilled
-    programmer and has an eye for attention to detail.
-    I can happily recommend Rupinder for Full-stack Software development roles.`,
-  },
-  {
-    author: "Gagandeep Singh",
-    profession: "Managing Director at Enrage Tech",
-    img: "./assets/2.jfif",
-    message: `He was a great asset for our company. The clients always appreciated his design and the functionality of the websites designed by him. He is a hard working person who is commited to deadlines and also is good human being.`,
-  },
-  {
-    author: "Lucio Santilli",
-    profession: "Lecturer at Collège LaSalle",
-    img: "./assets/3.jfif",
-    message: `I was pleased to have Rupinder in one of my classes. During that class, he was always curious, responsible, respectful and was not shy to ask relevant questions. He excelled in the class. I strongly recommend him for any academic or professional setting.`,
-  },
-];
+//    author: "Roneet Kumar",
+//    profession: "Front End Engineer at Morgan Stanley",
+//    img: "./assets/1.jfif",
+//    message: `Rupinder is a dear friend with whom i had pleasure to
+//    work on various exciting projects while we were completing our post graduate diploma at
+//    LaSalle College.
+//    He is super fun to work with and a great team player, moreover he is a skilled
+//    programmer and has an eye for attention to detail.
+//    I can happily recommend Rupinder for Full-stack Software development roles.`,
+//  },
+//  {
+//    author: "Gagandeep Singh",
+//    profession: "Managing Director at Enrage Tech",
+//    img: "./assets/2.jfif",
+//    message: `He was a great asset for our company. The clients always appreciated his design and the functionality of the websites designed by him. He is a hard working person who is commited to deadlines and also is good human being.`,
+//  },
+ // {
+//    author: "Lucio Santilli",
+//    profession: "Lecturer at Collège LaSalle",
+//    img: "./assets/3.jfif",
+//    message: `I was pleased to have Rupinder in one of my classes. During that class, he was always curious, responsible, respectful and was not shy to ask relevant questions. He excelled in the class. I strongly recommend him for any academic or professional setting.`,
+//  },
+];}
 
 const education = [
   {
