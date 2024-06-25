@@ -1,0 +1,97 @@
+.cubes {
+  position: absolute;
+  z-index: 0;
+}
+.cubes .cube-one,
+.cubes .cube-two,
+.cubes .cube-three {
+  position: relative;
+  transition: all 1000ms ease;
+  border-radius: 10px;
+}
+.cubes .cube-one {
+  top: -10%;
+  left: -10%;
+  opacity: 0.8;
+  animation: move-three 2s linear infinite;
+}
+.cubes .cube-one .cube-two {
+  top: 40%;
+  left: 50%;
+  z-index: 1;
+  animation: move-two 1s linear infinite;
+}
+.cubes .cube-one .cube-two .cube-three {
+  top: 30%;
+  left: -80%;
+  animation: move-one 1s ease infinite;
+}
+
+.color-primary .cube-one {
+  background-color: hsl(180, 100%, 38%);
+}
+
+.color-primary .cube-two {
+  background-color: hsl(180, 100%, 28%);
+}
+
+.color-primary .cube-three {
+  background-color: hsl(180, 100%, 48%);
+}
+
+.medium .cube-one,
+.medium .cube-two,
+.medium .cube-three {
+  height: 200px;
+  width: 200px;
+}
+
+.small .cube-one,
+.small .cube-two,
+.small .cube-three {
+  height: 100px;
+  width: 100px;
+}
+
+.large .cube-one,
+.large .cube-two,
+.large .cube-three {
+  height: 400px;
+  width: 400px;
+}
+
+@keyframes move-one {
+  0%,
+  100% {
+    transition: all 100ms ease;
+    transform: translate(0%, 0%);
+  }
+  50% {
+    transition: all 100ms ease;
+    transform: translate(2%, 2%);
+  }
+}
+
+@keyframes move-two {
+  0%,
+  100% {
+    transition: all 100ms ease;
+    transform: translate(0%, 0%);
+  }
+  50% {
+    transition: all 100ms ease;
+    transform: translate(-2%, -2%);
+  }
+}
+
+@keyframes move-three {
+  0%,
+  100% {
+    transition: all 100ms ease;
+    transform: translate(0%, 0%);
+  }
+  50% {
+    transition: all 100ms ease;
+    transform: translate(4%, -2%);
+  }
+}
