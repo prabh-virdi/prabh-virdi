@@ -110,8 +110,8 @@ const skills = [
 const projects = [
   {
     name: "BUDDHA STUPA AND SAMAYAK, vaishali Bihar",
-    img: "./Images/1.png",
-    desc: "",
+    img: "./Images/8.jpg",
+    desc: "GET at SPENC",
     link: "prabh-virdi.github.io/buddha-stupa/",
   },
 ];
