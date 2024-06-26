@@ -185,7 +185,7 @@
   margin: 40px auto;
   border-radius: 50%;
   background-image: url(./assets/profile.jpg);
-  filter: brightness(0.8);
+  filter: brightness(1.0);
   background-position: center;
   background-size: cover;
   box-shadow: var(--dark-theme-accent-shadow);
