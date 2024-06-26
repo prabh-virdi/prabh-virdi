@@ -112,7 +112,7 @@ const projects = [
     name: "BUDDHA STUPA AND SAMAYAK, vaishali Bihar",
     img: "./Images/8.jpg",
     desc: "GET at SPENC",
-    link: "prabh-virdi.github.io/buddha-stupa/",
+    link: "https://www.prabh-virdi.github.io/buddha-stupa/",
   },
 ];
 
