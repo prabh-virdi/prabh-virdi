@@ -57,7 +57,7 @@ const experience = [
     company: "Shapoorji Pallonji Engineering and construction",
     duration: "Aug 2023 - Present",
     details: `CLIENT - BCD BIHAR<br/>
-SITE – BUDDHA STUPA AND SAMAYAK<br/>
+SITE – BUDDHA STUPA AND SAMAYAK, Vaishali, Bihar<br/>
 Planning Department<br/>
 •	Developed detailed project plans and schedules for various construction activities, ensuring alignment with project goals and timelines.<br/>
 •	Responsible for calculating balance work for project completion<br/>
