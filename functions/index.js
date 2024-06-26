@@ -56,14 +56,24 @@ const experience = [
     position: "Graduate Engineer Trainee",
     company: "Shapoorji Pallonji Engineering and construction",
     duration: "Aug 2023 - Present",
-    details: `I am working on a part of a web application to change from MVC code to a react application. I am working on development of various features new and existing. Working with multiple repositories on Bitbucket. Rest of my responsibilities include:<br/>
-     • Developing new user-facing features.<br/>
-     • Updating Jira trackers for agile environment and team management<br/>
-     • Writing efficient code for flexibility and agility of the product.<br/>
-     • Assuring that all user input is validated before submitting to back-end<br/>
-     • Solving high scale defects in existing applications.<br/>
-     • Working with a pretty complex source code handled on bitbucket using Github.<br/>,
-     • Collaborating with all team members and stakeholders<br/>`,
+    details: `CLIENT - BCD BIHAR<br/>
+SITE – BUDDHA STUPA AND SAMAYAK<br/>
+Planning Department<br/>
+•	Developed detailed project plans and schedules for various construction activities, ensuring alignment with project goals and timelines.<br/>
+•	Responsible for calculating balance work for project completion<br/>
+•	Monitored project progress and performance against established schedules and milestones.<br/>
+•	Updated CTC based on project progress, new data, and changes in project scope.<br/>
+
+Execution Department<br/>
+Monitored Construction of RCC Structures:<br/>
+•	Oversaw the construction of RCC structures including foundation, rafts, columns, RCC walls, beams, slabs, and ramps.<br/>
+•	Ensured adherence to design specifications and safety standards during construction activities.<br/>
+•	Collaborated with contractors and team members to resolve technical issues and ensure timely completion.<br/>
+Sole Responsibility for 10,000m² Ceremonial Water Body Construction:<br/>
+•	Led the construction of a large ceremonial water body and a lotus pond surrounding the stupa.<br/>
+•	Coordinated with various stakeholders to ensure efficient project execution and high-quality outcomes.<br/>
+Accurate Quantity Calculations:<br/>
+•	Calculated precise quantities of reinforcement, formwork, and concrete required for RCC structures of the stupa for client billing`,
   },
 ];
 
