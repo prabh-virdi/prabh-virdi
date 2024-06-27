@@ -4,7 +4,7 @@
   --dark-theme-shadow: 0px 0px 5px 0.5px hsla(0, 0%, 0%, 0.2);
   --primary-color: #ffffff;
   --mica-background: #5E5E5E;
-  --accent-color: #85c6ff;
+  --accent-color: #ffffff;
   --text-color-one: #ffffff;
   --primary-fontStyle: "Nunito", sans-serif;
   --dark-theme-accent-shadow: 0px 0px 5px 1px rgba(35, 54, 56, 0.6);
@@ -44,7 +44,7 @@
 /* Styles for dark gray boxes with windows 11 mica theme */
 .section {
   position: relative;
-  top: 38px;
+  top: 2px;
   box-shadow: var(--mica-shadow); /* Apply windows 11 mica theme shadow */
   width: 70%;
   margin: 0px auto;
