@@ -37,9 +37,9 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
 }
-/*.container { height: 100%;
-  width: 100%;
-  object-fit: cover; /* Ensures the image covers the container without white spaces */*/
+.container { height: 100%;
+  width: 100vh;
+  /*object-fit: cover;*/ /* Ensures the image covers the container without white spaces */
 
 /* Styles for dark gray boxes with windows 11 mica theme */
 .section {
