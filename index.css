@@ -445,7 +445,7 @@
   box-shadow: var(--dark-theme-accent-shadow);
   border-radius: 5px;
   transition: all 150ms ease-in;
-  position: relative;
+  position: center;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -479,7 +479,7 @@
   opacity: 0;
   grid-template-rows: 1fr max-content;
   transition: all 100ms ease;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .overlay .prj-name,
 .overlay .work-name {
