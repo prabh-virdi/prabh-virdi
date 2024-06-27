@@ -48,7 +48,7 @@
   box-shadow: var(--mica-shadow); /* Apply windows 11 mica theme shadow */
   width: 70%;
   margin: 0px auto;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 20px;
   background-color: var(--mica-background);
   backdrop-filter: blur(10px); /* Apply backdrop filter for transparency */
