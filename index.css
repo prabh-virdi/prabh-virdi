@@ -32,8 +32,8 @@
   width: 100%;
   height: auto;
   background-color: var(--primary-color);
-  background-image: url('Images/bg.jpg'); /* Add your custom image path here */
-  background-size: cover; /* This will ensure the image covers the entire container */
+  background-image: url('Images/windows 11.jpg'); /* Add your custom image path here */
+  background-size: contain; /* This will ensure the image covers the entire container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
 }
