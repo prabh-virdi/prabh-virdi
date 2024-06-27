@@ -444,7 +444,7 @@
   min-width: 220px;
   margin-left: -40px;
   box-shadow: var(--dark-theme-accent-shadow);
-  border-radius: 5px;
+  border-radius: 12px;
   transition: all 150ms ease-in;
   position: center;
   background-position: top;
@@ -462,7 +462,7 @@
 }
 
 .projects .project:hover {
-  transform: scale(1.2);
+  transform: scale(1.08);
   transition: all 200ms ease-out;
 }
 
@@ -480,7 +480,7 @@
   opacity: 0;
   grid-template-rows: 1fr max-content;
   transition: all 100ms ease;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .overlay .prj-name,
 .overlay .work-name {
