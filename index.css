@@ -176,7 +176,7 @@
   font-weight: bolder;
   font-size: 18px;
   background-color: rgba(50, 50, 50, 0.150);
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.350); /* Soft shadow */
+  box-shadow: 0px 4x 6px rgba(0, 0, 0, 0.45); /* Soft shadow */
   transition: 150ms all linear;
   color: var(--accent-color);
   text-decoration: none;
@@ -185,9 +185,9 @@
 #btnHireMe:hover,
 #getCv:hover {
   transition: 150ms all linear;
-  transform: scale(1.2);
-  box-shadow: 0px 64x 8px rgba(0, 0, 0, 0.4); /* Spreaded soft shadow on hover */
-  box-radius: 10px;
+  transform: scale(1.15);
+  box-shadow: 0px 8x 12x rgba(0, 0, 0, 0.3); /* Spreaded soft shadow on hover */
+  box-radius: 8px;
 }
 
 .profile-pic {
