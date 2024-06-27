@@ -452,7 +452,7 @@
 }
 @media (max-width: 800px) {
   .projects {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .projects .project {
     height: 180px;
