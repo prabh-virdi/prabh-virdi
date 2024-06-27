@@ -36,13 +36,13 @@
   background-size: cover; /* This will ensure the image covers the entire container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
-  object-fit: cover; /* Ensures the image covers the container without white spaces */
+  /*object-fit: cover;*/ /* Ensures the image covers the container without white spaces */
 }
 
 /* Styles for dark gray boxes with windows 11 mica theme */
 .section {
   position: relative;
-  top: 2px;
+  top: 38px;
   box-shadow: var(--mica-shadow); /* Apply windows 11 mica theme shadow */
   width: 70%;
   margin: 0px auto;
