@@ -39,7 +39,7 @@
 }
 .container { height: 100%;
   width: 100vh;
-  /*object-fit: cover;*/ /* Ensures the image covers the container without white spaces */
+  object-fit: cover; /* Ensures the image covers the container without white spaces */
 
 /* Styles for dark gray boxes with windows 11 mica theme */
 .section {
