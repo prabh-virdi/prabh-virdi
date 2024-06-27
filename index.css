@@ -175,7 +175,8 @@
   border: none;
   font-weight: bolder;
   font-size: 18px;
-  background-color: transparent;
+  background-color: var(--mica-background);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
   transition: 150ms all linear;
   color: var(--accent-color);
   text-decoration: none;
@@ -184,7 +185,7 @@
 #btnHireMe:hover,
 #getCv:hover {
   transition: 150ms all linear;
-  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Spreaded soft shadow on hover */
   box-radius: 3px;
 }
 
