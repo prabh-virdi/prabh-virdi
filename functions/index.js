@@ -45,8 +45,8 @@ const userInfo = {
 const education = [
   {
     course: "B-tech in Civil engineering",
-    institute: "DAV insititute of Engineering & Technology",
-    location: "Jalandhar, Punjab, India",
+    institute: "I.K. Gujral Punjab Technicial University",
+    location: "Kapurthala, Punjab, India",
     year: "2019-2023",
   },
 ];
