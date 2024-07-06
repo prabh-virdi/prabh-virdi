@@ -200,6 +200,8 @@
   background-position: center;
   background-size: cover;
   box-shadow: var(--dark-theme-accent-shadow);
+  transition: 150ms all linear;
+  transform: scale(1.15);
 }
 @media (max-width: 800px) {
   .profile-pic {
