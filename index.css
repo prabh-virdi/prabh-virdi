@@ -197,10 +197,12 @@
   border-radius: 50%;
   background-image: url(./assets/profile.jpg);
   filter: brightness(1.0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-position: center;
   background-size: cover;
   box-shadow: var(--dark-theme-accent-shadow);
-  transition: 150ms all linear;
+}
+.profile-pic:hover {
   transform: scale(1.15);
 }
 @media (max-width: 800px) {
