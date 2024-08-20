@@ -32,7 +32,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--primary-color);
-  background-image: url('Images/windows 11.jpg'); /* Add your custom image path here */
+  /*background-image: url('Images/windows 11.jpg'); /* Add your custom image path here */
   background-size: cover; /* This will ensure the image covers the entire container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
