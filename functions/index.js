@@ -55,28 +55,56 @@ const experience = [
   {
     position: "Graduate Engineer Trainee",
     company: "Shapoorji Pallonji Engineering and construction",
-    duration: "Aug 2023 - Present",
+    duration: "Aug 2023 - Aug 2024",
     details: `CLIENT - BCD BIHAR<br/>
 SITE – BUDDHA STUPA AND SAMAYAK, Vaishali, Bihar<br/>
 Planning Department<br/>
 •	Developed detailed project plans and schedules for various construction activities, ensuring alignment with project goals and timelines.<br/>
-•	Responsible for calculating balance work for project completion<br/>
+•	Responsible for calculating accurate balance work for project completion<br/>
+• Material procurement and tracking<br/>
 •	Monitored project progress and performance against established schedules and milestones.<br/>
 •	Updated CTC based on project progress, new data, and changes in project scope.<br/>
-
-Execution Department<br/>
+<br/>
+Execution Department:<br/>
 Monitored Construction of RCC Structures:<br/>
-•	Oversaw the construction of RCC structures including foundation, rafts, columns, RCC walls, beams, slabs, and ramps.<br/>
+•	Oversaw the construction of RCC structures including foundation, rafts, columns, RCC walls, beams, slabs and ramps.<br/>
 •	Ensured adherence to design specifications and safety standards during construction activities.<br/>
 •	Collaborated with contractors and team members to resolve technical issues and ensure timely completion.<br/>
-Sole Responsibility for 10,000m² Ceremonial Water Body Construction:<br/>
+•  for 10,000m² Ceremonial Water Body Construction:<br/>
 •	Led the construction of a large ceremonial water body and a lotus pond surrounding the stupa.<br/>
-•	Coordinated with various stakeholders to ensure efficient project execution and high-quality outcomes.<br/>
+•	Coordinated with team members to ensure efficient project execution and high-quality outcomes.<br/>
+<br/>
 Accurate Quantity Calculations:<br/>
-•	Calculated precise quantities of reinforcement, formwork, and concrete required for RCC structures of the stupa for client billing`,
+•	Calculated precise quantities of reinforcement, formwork, concrete, etc for RCC structures of the stupa for client billing`,
   },
 ];
-
+[
+  {
+    position: "Planning Engineer - S2 cadre",
+    company: "Shapoorji Pallonji Engineering and construction",
+    duration: "Aug 2024 - present",
+    details: `CLIENT - BCD BIHAR<br/>
+SITE – BUDDHA STUPA AND SAMAYAK, Vaishali, Bihar<br/>
+Planning Department<br/>
+•	Developed detailed project plans and schedules for various construction activities, ensuring alignment with project goals and timelines.<br/>
+•	Responsible for calculating accurate balance work for project completion<br/>
+• Material procurement and tracking<br/>
+•	Monitored project progress and performance against established schedules and milestones.<br/>
+•	Updated CTC based on project progress, new data, and changes in project scope.<br/>
+<br/>
+Execution Department:<br/>
+Monitored Construction of RCC Structures:<br/>
+•	Oversaw the construction of RCC structures including foundation, rafts, columns, RCC walls, beams, slabs and ramps.<br/>
+•	Ensured adherence to design specifications and safety standards during construction activities.<br/>
+•	Collaborated with contractors and team members to resolve technical issues and ensure timely completion.<br/>
+•  for 10,000m² Ceremonial Water Body Construction:<br/>
+•	Led the construction of a large ceremonial water body and a lotus pond surrounding the stupa.<br/>
+•	Coordinated with team members to ensure efficient project execution and high-quality outcomes.<br/>
+<br/>
+Accurate Quantity Calculations:<br/>
+•	Calculated precise quantities of reinforcement, formwork, concrete, etc for RCC structures of the stupa for client billing`,
+  },
+];
 const skills = [
   {
     cat_name: "BIMs",
