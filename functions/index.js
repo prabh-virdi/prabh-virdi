@@ -52,10 +52,10 @@ const education = [
 ];
 
 const experience = [
-  {
-    position: "Graduate Engineer Trainee",
+    {
+    position: "Planning Engineer - S2 cadre",
     company: "Shapoorji Pallonji Engineering and construction",
-    duration: "Aug 2023 - Aug 2024",
+    duration: "Aug 2024 - present",
     details: `CLIENT - BCD BIHAR<br/>
 SITE – BUDDHA STUPA AND SAMAYAK, Vaishali, Bihar<br/>
 Planning Department<br/>
@@ -77,12 +77,10 @@ Monitored Construction of RCC Structures:<br/>
 Accurate Quantity Calculations:<br/>
 •	Calculated precise quantities of reinforcement, formwork, concrete, etc for RCC structures of the stupa for client billing`,
   },
-];
-[
   {
-    position: "Planning Engineer - S2 cadre",
+    position: "Graduate Engineer Trainee",
     company: "Shapoorji Pallonji Engineering and construction",
-    duration: "Aug 2024 - present",
+    duration: "Aug 2023 - Aug 2024",
     details: `CLIENT - BCD BIHAR<br/>
 SITE – BUDDHA STUPA AND SAMAYAK, Vaishali, Bihar<br/>
 Planning Department<br/>
