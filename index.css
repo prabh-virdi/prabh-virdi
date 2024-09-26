@@ -42,7 +42,7 @@
 .section {
   position: relative;
   top: 38px;
-  box-shadow: var(--mica-shadow); /* Apply windows 11 mica theme shadow */
+  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3); /* Apply windows 11 mica theme shadow */
   width: 70%;
   margin: 0px auto;
   border: 0.5px solid rgba(255, 255, 255, 0.15);
