@@ -7,7 +7,6 @@ $ = (e) => {
 $$ = (e) => {
   return document.querySelectorAll(e);
 };
-
 const userInfo = {
   name: "PRABHSIMRAN SINGH",
   address: "rajavirdi2001@gmail.com",
@@ -15,7 +14,25 @@ const userInfo = {
   about:
     " Enthusiastic and dedicated Civil Engineer with hands-on experience in both planning and execution. Proficient in using a range of software tools, including AutoCAD, STAAD Pro, Microsoft Office, SAP NetWeaver, 3ds Max, V-Ray, and Adobe Photoshop. Possess good analytical skills and the ability to efficiently manage tasks and projects. Highly motivated to bring my technical expertise and passion for civil engineering to a dynamic and innovative team. Committed to staying updated with latest trends for efficient solutions. ",
 };
+const toggleBtn = document.querySelector(".toggle-btn"),
+    lockIcon = document.querySelector(".icon i");
 
+    toggleBtn.addEventListener("click", () => {
+      toggleBtn.classList.toggle("active");
+
+      if(toggleBtn.classList.contains("active")){
+      lockIcon.classList.replace("fa-moon", "fa-sun");
+      }else
+     lockIcon.classList.replace("fa-sun", "fa-moon");
+    });
+VanillaTilt.init(document.querySelector(".profile-pic"), {
+      max: 10,
+      speed: 200,
+      easing: "cubic-bezier(.03,.98,.52,.99)",
+      reverse: true,
+      glare: true,
+      "max-glare": 0.1,
+    });
 {const testimonials = [
   {
   author: "Roneet Kumar",    
@@ -214,7 +231,7 @@ projects.map((project) => {
 
 //Profession animation creates typing animation
 var professions = [
-  "#Civil Engineer",
+  "#Civil_Engineer",
 ];
 
 var x = 0;
@@ -273,7 +290,7 @@ const createTestimony = (testimony) => {
   return template;
 };
 
-testimonials.map((testimony) => {
+testimonials. map((testimony) => {
   $(".testimonials").innerHTML += createTestimony(testimony);
 });
 
