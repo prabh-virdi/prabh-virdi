@@ -85,9 +85,8 @@
 
 /* NAVBAR */
 .container .links {
-  position: absolute;
+  position: Sticky;
   top: 6%;
-  left: 2.3%;
   height: 50px;
   width: 95.5%;
   margin: auto;
@@ -142,7 +141,7 @@ body {
 .toggle-btn {
   position: absolute; /* Position the toggle button */
   right: 30px; /* Adjust position */
-  top: 13.25%; /* Center vertically */
+  top: 8%; /* Center vertically */
   transform: translateY(-50%);
   height: 50px;
   width: 50px;
