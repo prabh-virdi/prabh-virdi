@@ -1,18 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome!</title>
+  <title>Welcome !</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171577823-1"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
+
     gtag('config', 'UA-171577823-1');
   </script>
+  <div class="toggle-btn">
+    <div class="icon">
+      <i class="fa-solid fa-moon"></i>
+    </div>
+  </div>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./index.css" />
@@ -22,22 +28,22 @@
 
 <body>
   <div class="container">
-    <nav>
-      <ul class="links" type="none">
-        <li><a data-aos="fade-down" data-aos-once="true" href="#about">ABOUT</a></li>
-        <li><a data-aos="fade-down" data-aos-once="true" href="#projects">PROJECTS</a></li>
-        <li><a data-aos="fade-down" data-aos-once="true" href="#work">WORK</a></li>
-        <li><a data-aos="fade-down" data-aos-once="true" href="#education">EDUCATION</a></li>
-        <li><a data-aos="fade-down" data-aos-once="true" href="#skills">SKILLS</a></li>
-      </ul>
-    </nav>
+
+    <ul class="links" type="none">
+      <li><a data-aos="fade-down" data-aos-once="true" href="#about">ABOUT</a></li>
+      <li><a data-aos="fade-down" data-aos-once="true" href="#projects">PROJECTS</a></li>
+      <li><a data-aos="fade-down" data-aos-once="true" href="#work">WORK</a></li>
+      <li><a data-aos="fade-down" data-aos-once="true" href="#education">EDUCATION</a></li>
+      <li><a data-aos="fade-down" data-aos-once="true" href="#skills">SKILLS</a></li>
+    </ul>
 
     <div id="intro" class="section">
       <div class="profile-pic"></div>
       <span class="name" data-aos="fade-down"></span>
       <div class="profession" data-aos="fade-down"><span class="professionName"></span></div>
       <div class="buttons" tabindex="0">
-        <a id="btnHireMe" aria-label="hire-me-link" href="https://www.linkedin.com/in/prabhsimran-singh-b8643a27a/">HIRE ME</a>
+        <a id="btnHireMe" aria-label="hire-me-link"
+          href="https://www.linkedin.com/in/prabhsimran-singh-b8643a27a/">HIRE ME</a>
         <a id="getCv" aria-label="get-cv-link" href="./CV.pdf">GET CV</a>
       </div>
     </div>
@@ -51,55 +57,62 @@
     <!-- WORK -->
     <div class="space" id="work"></div>
     <div class="section" data-aos="fade-up">
-      <h2>Played the field as...</h2>
-      <div class="work-list"></div>
+      <h2>played the field as...</h2>
+      <div class="work-list">
+      </div>
     </div>
 
     <!-- EDUCATION -->
     <div class="space" id="education"></div>
     <div class="section" data-aos="fade-up">
-      <h2>I have studied a bit too...</h2>
-      <div class="education-list"></div>
+      <h2>i have studied a bit too...</h2>
+      <div id="education" class="education-list">
+      </div>
     </div>
 
     <!-- SKILLS -->
     <div class="space" id="skills"></div>
     <div class="section" data-aos="fade-up">
-      <h2>My skills include...</h2>
-      <div class="skills"></div>
+      <h2>my skills include...</h2>
+      <div class="skills">
+      </div>
     </div>
 
     <!-- PROJECTS -->
     <div class="space" id="projects"></div>
     <div class="section" data-aos="fade-up">
-      <h2>Projects I have worked on...</h2>
-      <div class="projects"></div>
+      <h2>Projects i have worked on..</h2>
+      <div class="projects">
+      </div>
     </div>
 
     <!-- TESTIMONIALS -->
     <div class="space" id="testimonials"></div>
     <div class="section" data-aos="fade-up">
-      <h2>I have also been told that I am a nice guy...</h2>
-      <div class="testimonials"></div>
+      <h2>i have also been told that i am a nice guy...</h2>
+      <div class="testimonials">
+      </div>
     </div>
 
     <div class="space"></div>
     <div class="section transparent" id="social-presence">
       <ul type="none" class="social-links">
-        <li><a href="https://www.linkedin.com/in/prabhsimran-singh-b8643a27a/"><img src="./assets/linkedIn.png" alt="LinkedIn" title="LinkedIn"></a></li>
-        <li><a href="https://github.com/prabh-virdi"><img src="./assets/github.png" alt="GitHub" title="GitHub"></a></li>
+        <li><a href="https://www.linkedin.com/in/prabhsimran-singh-b8643a27a/"><img src="./assets/linkedIn.png"
+              alt="linked-in" title="linked-in"></a></li>
+        <li><a href="https://github.com/prabh-virdi"><img src="./assets/github.png" alt="github" title="github"></a>
+        </li>
+      
       </ul>
     </div>
     <div class="copyright">
       <span></span>
     </div>
   </div>
-  
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="./functions/index.js"></script>
 </body>
+<script src="./functions/index.js"></script>
 
 </html>
