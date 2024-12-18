@@ -207,7 +207,7 @@ body {
   width: 200px;
   margin: 40px auto;
   border-radius: 50%;
-  background-image: url('https://w.wallhaven.cc/full/eo/wallhaven-eojxkk.jpg');
+  background-image: url(./assets/profile.jpg);
   filter: brightness(1.0);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-position: center;
