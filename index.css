@@ -3,16 +3,15 @@
 :root {
   --dark-theme-shadow: 0px 0px 5px 0.5px hsla(0, 0%, 0%, 0.2);
   --primary-color: #ececec;
-  --mica-background: rgba(255, 255, 255, 0.25);
-  --accent-color: #ehdkhz;
-  --text-color-one: #1c1c1c;
+  --mica-background: rgba(0, 0, 0, 0.25);
+  --accent-color: #efefef;
+  --text-color-one: #efefef;
   --primary-fontStyle: "Nunito", sans-serif;
   --dark-theme-accent-shadow: 0px 0px 5px 1px rgba(35, 54, 56, 0.6);
-  --mica-background: rgba(255, 255, 255, 0.25); /* Adjust transparency as needed */
-  --mica-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.32);
+  --mica-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.32);
 }
 
-* {
+{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -31,25 +30,20 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #ececec;
-  /*background-image: url('Images/windows 11.jpg'); /* Add your custom image path here */
-  background-size: cover; /* This will ensure the image covers the entire container */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 /* Styles for dark gray boxes with windows 11 mica theme */
 .section {
   position: relative;
-  top: 100px;
+  top: 106px;
   box-shadow: var(--mica-shadow); /* Apply windows 11 mica theme shadow */
   width: 95.5%;
   margin: 0px auto;
   border: 0.5px solid rgba(255, 255, 255, 0.15);
-  border-radius: 45px;
+  border-radius: 29px;
   padding: 20px;
-  background-color: #ececec;
-  backdrop-filter: blur(15px); /* Apply backdrop filter for transparency */
+  background-color: var(--mica-background);
+  backdrop-filter: blur(5px); /* Apply backdrop filter for transparency */
 }
 
 .section h2 {
@@ -67,17 +61,17 @@
 
 /* INFO */
 .about .info {
-  width: 98%;
+  width: 100%;
   margin: auto;
   font-size: 20px;
   font-weight: bold;
   text-align: justify;
   font-family: "Nunito Sans", sans-serif;
   color: var(--text-color-one);
-  padding: 20px;
+  padding: 15px;
 }
 * {
-  margin: 0;
+  margin: 20;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -85,17 +79,19 @@
 
 /* NAVBAR */
 .container .links {
-  position: Sticky;
+  position: fixed;
   top: 6%;
+   left: 50%; /* Moves the container to the center horizontally */
+  transform: translateX(-50%); /* Offsets it back by half of its own width */
   height: 50px;
-  width: 95.5%;
+  width: 94.7%;
   margin: auto;
   box-shadow: var(--mica-shadow);
   border-radius: 45px 45px 45px 45px;
   display: flex;
   justify-content: space-evenly;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #ececec;
+  background-color: rgba(255, 255, 255, 1);
   z-index: 100;
   padding: 10px 0px;
 }
@@ -114,7 +110,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 100ms linear;
+  transition: all 150ms ease;
 }
 
 .links li a {
@@ -132,66 +128,22 @@
 
 .links li:hover {
   color: white;
-  transform: scale(1.3);
-  transition: all 150ms linear;
+  transform: scale(1.15);
+  transition: all 150ms ease;
 }
 body {
   height: 100vh;
+    background-image: url('https://w.wallhaven.cc/full/eo/wallhaven-eojxkk.jpg'); /* Add your custom image path here */
+  background-size: fit; /* This will ensure the image covers the entire container */
 }
-.toggle-btn {
-  position: absolute; /* Position the toggle button */
-  right: 30px; /* Adjust position */
-  top: 8%; /* Center vertically */
-  transform: translateY(-50%);
-  height: 50px;
-  width: 50px;
-  background-color: #42455a;
-  border-radius: 100px;
-  cursor: pointer;
-  transition: all 0.4s ease;
-  z-index: 101; /* Ensure it's above the navbar */
-}
-.toggle-btn.active {
-  background: #e0ffff;
-}
-.toggle-btn .icon {
-  position: absolute;
-  top: 50%;
-  left: -1px;
-  transform: translateY(-50%);
-  height: 60px;
-  width: 60px;
-  font-size: 30px;
-  color: #999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #42455a;
-  border: 3px solid #999;
-  border-radius: 50%;
-  transition: all 0.4s ease;
-}
-.toggle-btn.active .icon {
-  left: calc(100% - 50px);
-  color: #e0ffff;
-  border: 3px solid #5edfff;
-  transition: all 0.4s ease;
-}
-.toggle-btn.active .icon i {
-  animation: spin 0.5s;
-}
-@keyframes spin {
-  to {
-    transform: rotate(0.5turn);
-  }
-}
+
 /* INTRO */
 
 .name {
   display: block;
   font-size: 50px;
   font-family: "Nunito Sans", sans-serif;
-  letter-spacing: 6px;
+  letter-spacing: 10px;
   text-align: center;
   color: var(--text-color-one);
   font-weight: bold;
@@ -208,7 +160,7 @@ body {
   border-right: 1px solid var(--text-color-one);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 8px) {
   .name {
     font-size: 26px;
   }
@@ -224,18 +176,19 @@ body {
   margin-bottom: 0px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 #btnHireMe,
 #getCv {
   padding: 15px;
   font-family: "Nunito Sans", sans-serif;
-  border-radius: 25px;
+  border-radius: 16px;
   border: none;
   font-weight: bolder;
   font-size: 21px;
-  background-color: rgba(50, 50, 50, 0.150);
-  box-shadow: 0px 4x 6px rgba(0, 0, 0, 0.45); /* Soft shadow */
+  background-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 4x 6px rgba(0, 0, 0, 0.25); /* Soft shadow */
   transition: 150ms all linear;
   color: var(--accent-color);
   text-decoration: none;
@@ -254,7 +207,7 @@ body {
   width: 200px;
   margin: 40px auto;
   border-radius: 50%;
-  background-image: url(./assets/profile.jpg);
+  background-image: url('https://w.wallhaven.cc/full/eo/wallhaven-eojxkk.jpg');
   filter: brightness(1.0);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-position: center;
@@ -275,8 +228,8 @@ body {
   transform: translateZ(80px);
   z-index: 2;
 }
-/*.profile-pic:hover {
-  transform: scale(1.15);*/
+.profile-pic:hover {
+  transform: scale(1.45);*/
 }
 /* SKILLS */
 
@@ -441,7 +394,7 @@ body {
   justify-content: center;
   flex-wrap: nowrap;
   margin: 15px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 15px;
   text-align: center;
   transition: all 150ms ease;
@@ -504,7 +457,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 15px;
   overflow: scroll;
   text-align: center;
   margin: auto;
@@ -514,7 +467,7 @@ body {
   min-width: 220px;
   margin-left: -40px;
   box-shadow: var(--dark-theme-accent-shadow);
-  border-radius: 20px;
+  border-radius: 30px;
   transition: all 150ms ease-in;
   position: center;
   background-position: top;
@@ -550,7 +503,7 @@ body {
   opacity: 0;
   grid-template-rows: 1fr max-content;
   transition: all 100ms ease;
-  border-radius: 23px;
+  border-radius: 30px;
 }
 .overlay .prj-name,
 .overlay .work-name {
